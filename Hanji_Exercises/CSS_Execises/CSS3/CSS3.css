@@ -1,0 +1,140 @@
+/* body */
+body {
+  font-family: helvetica, sans-serif;
+  background-color: #d7d4d49c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* profile-card */
+.profile-card {
+  width: 500px;
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: (0 4px 10px rgba(0, 0, 0, 0.1));
+  text-align: center;
+}
+
+/* cover-photo img */
+
+.cover-photo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* profile-content */
+
+.profile-content {
+  padding: 20px;
+  position: relative;
+  margin-top: -110px;
+}
+
+/* profile-picture */
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #71c9ff;
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* profile-info h2*/
+.profile-info h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #333333;
+  cursor: pointer; /* disregard this */
+}
+
+/* profile-info title*/
+.profile-info .title {
+  font-size: 18px;
+  color: #555555;
+  margin: 5px 0;
+}
+
+/* profile-info bio*/
+.profile-info .bio {
+  font-size: 18px;
+  color: #777777;
+  margin-top: 18px;
+}
+
+.social {
+  margin: 10px 10px;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+/* social ul */
+.social li {
+  display: inline-block;
+}
+
+.social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* social img */
+.social img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/** For effect lang disregard nyo nalang po itong part if ichecheck nyo po itong code **/
+.social img:hover {
+  transform: scale(2);
+  position: relative;
+  z-index: 1;
+}
+
+h2:hover {
+  color: #109d58;
+  transform: scale(1.05);
+}
+
+.profile-info h2:hover {
+  color: #109d58;
+  transform: scale(1.05);
+}
+
+.bio:hover {
+  color: #fabd03;
+  transform: scale(1.02);
+}
+
+.title:hover {
+  color: #e94134;
+  transform: scale(1.02);
+}
